@@ -1,5 +1,4 @@
 
-# ALX HTML & CSS Project
+# CSS Basic
 
-This project contains the `css_basic` directory, with HTML and CSS files for styling.
-
+This project adds early styling using CSS to HTML pages created previously. It uses only base.css for foundational styling.

@@ -1,1 +1,53 @@
 
+/* Flexbox layout */
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Optional: ensures it uses full height */
+  background-color: #f4f4f4;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+article {
+  flex: 2;
+  overflow-y: auto;
+}
+
+aside {
+  flex: 1;
+  overflow-y: auto;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-left: 1px solid #ddd;
+}
+
+header {
+  background-color: #fff0f5;
+  border-bottom: 2px solid #ccc;
+}
+
+footer {
+  background-color: #fff0f5;
+  border-top: 2px solid #ccc;
+}
+
+article {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+a {
+  color: #e60073;
+}
+
+.logo {
+  color: #e60073;
+}
