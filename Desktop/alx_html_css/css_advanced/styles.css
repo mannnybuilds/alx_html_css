@@ -1,0 +1,117 @@
+
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body */
+body {
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  background-color: #071629;
+}
+
+/* HEADER */
+header {
+  background-color: transparent;
+  padding: 20px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+nav img {
+  width: 160px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* HERO SECTION */
+.main-banner {
+  text-align: center;
+  padding: 60px 20px;
+  background-image: url('https://i.ibb.co/tx3VJvd/banner-bg.jpg'); /* optional bg */
+  background-size: cover;
+  background-position: center;
+}
+
+.main-banner h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.main-banner .keywords {
+  font-weight: bold;
+  font-size: 1.2rem;
+  letter-spacing: 10px;
+  margin-bottom: 30px;
+}
+
+.main-banner button {
+  background-color: #C271FF;
+  border: none;
+  color: #fff;
+  padding: 15px 30px;
+  font-size: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-bottom: 60px;
+}
+
+.main-banner button:hover {
+  background-color: #a956e2;
+}
+
+/* Subheading */
+.banner-sub {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+/* SPEAKER PROFILES */
+.speakers {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.speakers .profile {
+  text-align: center;
+  max-width: 150px;
+}
+
+.speakers .profile img {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.speakers .profile h3 {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.speakers .profile p {
+  font-size: 0.85rem;
+  opacity: 0.7;
+}
